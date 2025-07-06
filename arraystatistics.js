@@ -1,4 +1,4 @@
-const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 // This function calculates the sum, average, min, and max of an array of numbers
 // It returns an object containing these statistics
 
@@ -16,5 +16,5 @@ function calculateStatistics(array) {
     };
 }
 
-const statistics = calculateStatistics(myArray);
+const statistics = calculateStatistics([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 console.log(statistics);
